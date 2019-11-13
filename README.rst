@@ -11,7 +11,7 @@ Oks, lets me explain what's is PyPow! with an example:
 Imagine we have a bastion machine for our internal network, something similar like this diagram:
 
 .. image:: doc/pypow-diagram.png
-   :width: 400px
+   :width: 200px
 
 **Problem we have**
 
