@@ -14,9 +14,9 @@ Imagine we have a bastion machine for our internal network, something similar li
 
 **Problem we have**
 
-1 - We need to check that our database is alive
-2 - We need to do that without login into any machine of the intranet.
-3 - For us, it's enough to to **ping** the database machine for check that it's alive.
+1. We need to check that our database is alive
+2. We need to do that without login into any machine of the intranet.
+3. For us, it's enough to to **ping** the database machine for check that it's alive.
 
 **Solution using PyPow! / KaPow!**
 
