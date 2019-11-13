@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cr0hn/python3.6-alpine-make:1.0.4
+
+    working_directory: ~/repo
+
+    branches:
+      only:
+        - master
+
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 17.07.0-ce
+
+      - deploy:
+          name: Upload patton-server to pypi
+          command: sh deploy/upload_to_pypi.sh
+

@@ -1,0 +1,8 @@
+kapow route add '/ping/{ip}' - <<-'EOF'
+    kapow set /response/headers/Content-Type text/plain
+
+    nohup ping $(kapow get /request/matches/ip) >> /tmp/ping.txt &
+
+    tail -f /tmp/ping.txt  | kapow set /response/stream
+
+EOF
