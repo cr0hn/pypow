@@ -577,6 +577,8 @@ def server(capem, certfile, keyfile, bind, interactive, scripts):
 
     loop = asyncio.get_event_loop()
 
+    print(f"[*] Listen PyNow! at: {bind}")
+
     loop.run_until_complete(
         start_kapow_server(bind, scripts, capem, certfile, interactive, keyfile))
     loop.run_forever()

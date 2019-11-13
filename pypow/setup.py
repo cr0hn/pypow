@@ -9,7 +9,7 @@ with open(join(here, 'requirements.txt')) as f:
 
 setup(
     name='pypow',
-    version="1.0.0",
+    version="1.0.1",
     packages=find_packages(),
     description='PyPow! is the easy way to expose any cli c'
                 'ommand as a REST API.',
@@ -25,7 +25,7 @@ setup(
     license='Apache 2.0',
     author='Maintainer: cr0hn. Creator BBVA Labs. ',
     entry_points={'console_scripts': [
-        'kapow = kapow.__main__:kapow'
+        'kapow = pypow.__main__:kapow'
     ]},
     classifiers=[
         'Environment :: Console',

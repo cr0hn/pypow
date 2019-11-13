@@ -42,6 +42,9 @@ Launch service using Pypow! server:
 
     $ kapow server ping.pow
 
+
+    By default, PyPow listen port **8080**
+
 Step 3
 ++++++
 
@@ -57,11 +60,20 @@ Install Pypow!
 
     $ pip install pypow
 
-Examples
---------
+PyPow! with Docker
+------------------
+
+.. code-block:: console
+
+    $ docker run --rm pypow -h
+
+Usage Examples
+--------------
 
 SSL Auth
 ++++++++
+
+PyPow! supports authentication by SSL client-server certificates.
 
 **Create CA (tl,dr)**
 
@@ -119,6 +131,6 @@ PyPow is a Python implementation of Kapow! spec. It's based in the original Kapo
 This repo contains the Python implementation of `Kapow! Spec <https://github.com/BBVA/kapow/tree/master/spec>`_:
 
 
-    if you're looking for high performance, then you need the official GoLang implementation of Kapow!
+    if you're looking for high performance, then you need the official Go implementation of Kapow!
 
     https://github.com/BBVA/kapow
