@@ -11,7 +11,7 @@ Oks, lets me explain what's is PyPow! with an example:
 Imagine we have a bastion machine for our internal network, something similar like this diagram:
 
 .. image:: doc/pypow-diagram.png
-    :width: 400px
+   :width: 400px
 
 **Problem we have**
 
@@ -119,7 +119,6 @@ PyPow is a Python implementation of Kapow! spec. It's based in the original Kapo
 
 This repo contains the Python implementation of `Kapow! Spec <https://github.com/BBVA/kapow/tree/master/spec>`_:
 
-.. note::
 
     if you're looking for high performance, then you need the official GoLang implementation of Kapow!
 
