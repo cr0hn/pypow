@@ -11,6 +11,7 @@ Oks, lets me explain what's is PyPow! with an example:
 Imagine we have a bastion machine for our internal network, something similar like this diagram:
 
 .. image:: doc/pypow-diagram.png
+    :width: 400px
 
 **Problem we have**
 
@@ -47,7 +48,7 @@ Step 3
 
 Check your browser and freaks out :)
 
-.. image:: doc/kapow.gif
+.. image:: doc/pypow.gif
 
 
 Install Pypow!
@@ -64,8 +65,6 @@ SSL Auth
 ++++++++
 
 **Create CA (tl,dr)**
-
-.. note::
 
     Commands and examples borrowed from: https://tech-habit.info/posts/https-cert-based-auth-with-flask-and-gunicorn/
 
