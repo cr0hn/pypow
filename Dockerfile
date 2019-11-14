@@ -14,4 +14,4 @@ RUN apk del alpine-sdk python3-dev musl-dev libffi-dev \
 
 EXPOSE 8081/tcp
 
-ENTRYPOINT ["/usr/bin/kapow"]
+ENTRYPOINT ["/usr/local/bin/kapow"]
