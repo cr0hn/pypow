@@ -3,6 +3,8 @@ Pypow!
 
 PyPow! is the easy way to expose any cli command as a REST API.
 
+    PyPow is based in the original Kapow! Python code work of the original authors (see bellow).
+
 What's this PyPow! by example
 -----------------------------
 
@@ -123,14 +125,26 @@ See examples/ folder to check the samp:`ping.pow` file.
 
     $ curl --insecure --cacert ca-crt.pem --key client.key --cert client.crt https://localhost:9001/ping
 
-PyPow origins
--------------
+Authors
+-------
 
-PyPow is a Python implementation of Kapow! spec. It's based in the original Kapow Python PoC.
+PyPow is a fork of the PoC of `Kapow! <https://github.com/BBVA/kapow>`_ whose authors are:
+
+- `Cesar Gallego <https://github.com/CesarGallego>`_
+- `Roberto Abdelkader Martínez Pérez <https://github.com/nilp0inter>`_
+- `Pancho Horrillo <https://github.com/panchoh>`_
+- `Hector Hurtado <https://github.com/hhurtado>`_
+
+This repo is a fork that aims to maintain and extend the original Python implementation of Kapow!
+
+Origins
+-------
+
+PyPow is a Python implementation of Kapow! spec. It's based in the original Kapow! Python PoC.
 
 This repo contains the Python implementation of `Kapow! Spec <https://github.com/BBVA/kapow/tree/master/spec>`_:
-
 
     if you're looking for high performance, then you need the official Go implementation of Kapow!
 
     https://github.com/BBVA/kapow
+
